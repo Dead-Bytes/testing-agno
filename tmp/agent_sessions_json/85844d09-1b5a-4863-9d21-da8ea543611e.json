@@ -1,0 +1,327 @@
+{
+    "session_id": "85844d09-1b5a-4863-9d21-da8ea543611e",
+    "user_id": null,
+    "memory": {
+        "runs": [
+            {
+                "message": {
+                    "content": "What is the recipe for pad thai?",
+                    "from_history": false,
+                    "stop_after_tool_call": false,
+                    "role": "user",
+                    "created_at": 1742275236
+                },
+                "response": {
+                    "content": "### Pad Thai Recipe\nPad Thai is a stir-fry dish made with rice noodles, vegetables, and your choice of protein (chicken, beef, tofu, or shrimp). Here's a basic recipe for Pad Thai:\n\n#### Ingredients:\n- 1 cup of rice stick noodles\n- 2 tablespoons of vegetable oil\n- 1 onion, thinly sliced\n- 2 cloves of garlic, minced\n- 1 cup of mixed vegetables (bean sprouts, carrots, green onions)\n- 1 cup of cooked chicken, beef, tofu, or shrimp\n- 2 tablespoons of tamarind paste\n- 2 tablespoons of palm sugar\n- 1 tablespoon of fish sauce\n- 1 tablespoon of soy sauce\n- 1 tablespoon of rice vinegar\n- 1/2 teaspoon of ground peanuts\n- Salt and pepper to taste\n- 2 eggs, beaten\n- Chopped peanuts and lime wedges for garnish\n\n#### Instructions:\n1. **Cook the noodles**: Soak the rice stick noodles in hot water for about 3-5 minutes, or according to the package instructions. Drain and set aside.\n2. **Prepare the ingredients**: Cut the onion, garlic, and mixed vegetables. Cook the protein of your choice and set aside.\n3. **Make the sauce**: In a blender or food processor, combine tamarind paste, palm sugar, fish sauce, soy sauce, and rice vinegar. Blend until smooth.\n4. **Stir-fry the ingredients**: Heat the vegetable oil in a large wok or frying pan over medium-high heat. Add the onion and garlic and stir-fry until the onion is translucent.\n5. **Add the mixed vegetables and protein**: Add the mixed vegetables and cooked protein to the wok or frying pan. Stir-fry for about 2 minutes.\n6. **Add the noodles and sauce**: Add the cooked noodles and the sauce to the wok or frying pan. Stir-fry for about 2-3 minutes, or until the noodles are well coated with the sauce.\n7. **Add the peanuts and eggs**: Add the ground peanuts and beaten eggs to the wok or frying pan. Stir-fry until the eggs are cooked through.\n8. **Season with salt and pepper**: Season the Pad Thai with salt and pepper to taste.\n9. **Garnish and serve**: Garnish with chopped peanuts and lime wedges. Serve hot and enjoy!\n\nNote: You can adjust the ingredients and seasonings to your taste. This is just a basic recipe for Pad Thai, and there are many variations of this dish.",
+                    "content_type": "str",
+                    "event": "RunResponse",
+                    "metrics": {
+                        "input_tokens": [
+                            272,
+                            303
+                        ],
+                        "output_tokens": [
+                            516,
+                            529
+                        ],
+                        "total_tokens": [
+                            788,
+                            832
+                        ],
+                        "prompt_tokens": [
+                            0,
+                            0
+                        ],
+                        "completion_tokens": [
+                            0,
+                            0
+                        ],
+                        "additional_metrics": [
+                            {
+                                "completion_time": 1.876363636,
+                                "prompt_time": 0.01350048,
+                                "queue_time": 0.05139507499999999,
+                                "total_time": 1.889864116
+                            },
+                            {
+                                "completion_time": 1.923636364,
+                                "prompt_time": 0.013680076,
+                                "queue_time": 0.046873313,
+                                "total_time": 1.93731644
+                            }
+                        ],
+                        "time": [
+                            2.228915209999286,
+                            2.047460795999541
+                        ]
+                    },
+                    "model": "llama-3.3-70b-versatile",
+                    "run_id": "521e0eb8-3f6b-46df-a67a-5bbd7ba58d94",
+                    "agent_id": "b96ac20d-565d-40b8-af84-94851758da03",
+                    "session_id": "85844d09-1b5a-4863-9d21-da8ea543611e",
+                    "tools": [
+                        {
+                            "content": "No documents found",
+                            "tool_call_id": "call_5ah9",
+                            "tool_name": "search_knowledge_base",
+                            "tool_args": {
+                                "query": "pad thai variations"
+                            },
+                            "tool_call_error": false,
+                            "metrics": {
+                                "input_tokens": 0,
+                                "output_tokens": 0,
+                                "total_tokens": 0,
+                                "prompt_tokens": 0,
+                                "completion_tokens": 0,
+                                "prompt_tokens_details": null,
+                                "completion_tokens_details": null,
+                                "additional_metrics": null,
+                                "time": 1.9182816690008622,
+                                "time_to_first_token": null,
+                                "timer": null
+                            },
+                            "created_at": 1742275240
+                        }
+                    ],
+                    "created_at": 1742275062,
+                    "messages": [
+                        {
+                            "content": "You are a Thai cuisine expert!\n\n<additional_information>\n- Use markdown to format your answers.\n</additional_information>",
+                            "from_history": false,
+                            "stop_after_tool_call": false,
+                            "role": "system",
+                            "created_at": 1742275236
+                        },
+                        {
+                            "content": "What is the recipe for pad thai?",
+                            "from_history": false,
+                            "stop_after_tool_call": false,
+                            "role": "user",
+                            "created_at": 1742275236
+                        },
+                        {
+                            "from_history": false,
+                            "stop_after_tool_call": false,
+                            "role": "assistant",
+                            "tool_calls": [
+                                {
+                                    "id": "call_5ah9",
+                                    "function": {
+                                        "arguments": "{\"query\": \"pad thai variations\"}",
+                                        "name": "search_knowledge_base"
+                                    },
+                                    "type": "function"
+                                }
+                            ],
+                            "metrics": {
+                                "input_tokens": 272,
+                                "output_tokens": 516,
+                                "total_tokens": 788,
+                                "additional_metrics": {
+                                    "completion_time": 1.876363636,
+                                    "prompt_time": 0.01350048,
+                                    "queue_time": 0.05139507499999999,
+                                    "total_time": 1.889864116
+                                },
+                                "time": 2.228915209999286
+                            },
+                            "created_at": 1742275236
+                        },
+                        {
+                            "content": "No documents found",
+                            "from_history": false,
+                            "stop_after_tool_call": false,
+                            "role": "tool",
+                            "tool_call_id": "call_5ah9",
+                            "tool_name": "search_knowledge_base",
+                            "tool_args": {
+                                "query": "pad thai variations"
+                            },
+                            "tool_call_error": false,
+                            "metrics": {
+                                "time": 1.9182816690008622
+                            },
+                            "created_at": 1742275240
+                        },
+                        {
+                            "content": "### Pad Thai Recipe\nPad Thai is a stir-fry dish made with rice noodles, vegetables, and your choice of protein (chicken, beef, tofu, or shrimp). Here's a basic recipe for Pad Thai:\n\n#### Ingredients:\n- 1 cup of rice stick noodles\n- 2 tablespoons of vegetable oil\n- 1 onion, thinly sliced\n- 2 cloves of garlic, minced\n- 1 cup of mixed vegetables (bean sprouts, carrots, green onions)\n- 1 cup of cooked chicken, beef, tofu, or shrimp\n- 2 tablespoons of tamarind paste\n- 2 tablespoons of palm sugar\n- 1 tablespoon of fish sauce\n- 1 tablespoon of soy sauce\n- 1 tablespoon of rice vinegar\n- 1/2 teaspoon of ground peanuts\n- Salt and pepper to taste\n- 2 eggs, beaten\n- Chopped peanuts and lime wedges for garnish\n\n#### Instructions:\n1. **Cook the noodles**: Soak the rice stick noodles in hot water for about 3-5 minutes, or according to the package instructions. Drain and set aside.\n2. **Prepare the ingredients**: Cut the onion, garlic, and mixed vegetables. Cook the protein of your choice and set aside.\n3. **Make the sauce**: In a blender or food processor, combine tamarind paste, palm sugar, fish sauce, soy sauce, and rice vinegar. Blend until smooth.\n4. **Stir-fry the ingredients**: Heat the vegetable oil in a large wok or frying pan over medium-high heat. Add the onion and garlic and stir-fry until the onion is translucent.\n5. **Add the mixed vegetables and protein**: Add the mixed vegetables and cooked protein to the wok or frying pan. Stir-fry for about 2 minutes.\n6. **Add the noodles and sauce**: Add the cooked noodles and the sauce to the wok or frying pan. Stir-fry for about 2-3 minutes, or until the noodles are well coated with the sauce.\n7. **Add the peanuts and eggs**: Add the ground peanuts and beaten eggs to the wok or frying pan. Stir-fry until the eggs are cooked through.\n8. **Season with salt and pepper**: Season the Pad Thai with salt and pepper to taste.\n9. **Garnish and serve**: Garnish with chopped peanuts and lime wedges. Serve hot and enjoy!\n\nNote: You can adjust the ingredients and seasonings to your taste. This is just a basic recipe for Pad Thai, and there are many variations of this dish.",
+                            "from_history": false,
+                            "stop_after_tool_call": false,
+                            "role": "assistant",
+                            "metrics": {
+                                "input_tokens": 303,
+                                "output_tokens": 529,
+                                "total_tokens": 832,
+                                "additional_metrics": {
+                                    "completion_time": 1.923636364,
+                                    "prompt_time": 0.013680076,
+                                    "queue_time": 0.046873313,
+                                    "total_time": 1.93731644
+                                },
+                                "time": 2.047460795999541
+                            },
+                            "created_at": 1742275240
+                        }
+                    ]
+                }
+            }
+        ],
+        "messages": [
+            {
+                "content": "You are a Thai cuisine expert!\n\n<additional_information>\n- Use markdown to format your answers.\n</additional_information>",
+                "from_history": false,
+                "stop_after_tool_call": false,
+                "role": "system",
+                "created_at": 1742275236
+            },
+            {
+                "content": "What is the recipe for pad thai?",
+                "from_history": false,
+                "stop_after_tool_call": false,
+                "role": "user",
+                "created_at": 1742275236
+            },
+            {
+                "from_history": false,
+                "stop_after_tool_call": false,
+                "role": "assistant",
+                "tool_calls": [
+                    {
+                        "id": "call_5ah9",
+                        "function": {
+                            "arguments": "{\"query\": \"pad thai variations\"}",
+                            "name": "search_knowledge_base"
+                        },
+                        "type": "function"
+                    }
+                ],
+                "metrics": {
+                    "input_tokens": 272,
+                    "output_tokens": 516,
+                    "total_tokens": 788,
+                    "additional_metrics": {
+                        "completion_time": 1.876363636,
+                        "prompt_time": 0.01350048,
+                        "queue_time": 0.05139507499999999,
+                        "total_time": 1.889864116
+                    },
+                    "time": 2.228915209999286
+                },
+                "created_at": 1742275236
+            },
+            {
+                "content": "No documents found",
+                "from_history": false,
+                "stop_after_tool_call": false,
+                "role": "tool",
+                "tool_call_id": "call_5ah9",
+                "tool_name": "search_knowledge_base",
+                "tool_args": {
+                    "query": "pad thai variations"
+                },
+                "tool_call_error": false,
+                "metrics": {
+                    "time": 1.9182816690008622
+                },
+                "created_at": 1742275240
+            },
+            {
+                "content": "### Pad Thai Recipe\nPad Thai is a stir-fry dish made with rice noodles, vegetables, and your choice of protein (chicken, beef, tofu, or shrimp). Here's a basic recipe for Pad Thai:\n\n#### Ingredients:\n- 1 cup of rice stick noodles\n- 2 tablespoons of vegetable oil\n- 1 onion, thinly sliced\n- 2 cloves of garlic, minced\n- 1 cup of mixed vegetables (bean sprouts, carrots, green onions)\n- 1 cup of cooked chicken, beef, tofu, or shrimp\n- 2 tablespoons of tamarind paste\n- 2 tablespoons of palm sugar\n- 1 tablespoon of fish sauce\n- 1 tablespoon of soy sauce\n- 1 tablespoon of rice vinegar\n- 1/2 teaspoon of ground peanuts\n- Salt and pepper to taste\n- 2 eggs, beaten\n- Chopped peanuts and lime wedges for garnish\n\n#### Instructions:\n1. **Cook the noodles**: Soak the rice stick noodles in hot water for about 3-5 minutes, or according to the package instructions. Drain and set aside.\n2. **Prepare the ingredients**: Cut the onion, garlic, and mixed vegetables. Cook the protein of your choice and set aside.\n3. **Make the sauce**: In a blender or food processor, combine tamarind paste, palm sugar, fish sauce, soy sauce, and rice vinegar. Blend until smooth.\n4. **Stir-fry the ingredients**: Heat the vegetable oil in a large wok or frying pan over medium-high heat. Add the onion and garlic and stir-fry until the onion is translucent.\n5. **Add the mixed vegetables and protein**: Add the mixed vegetables and cooked protein to the wok or frying pan. Stir-fry for about 2 minutes.\n6. **Add the noodles and sauce**: Add the cooked noodles and the sauce to the wok or frying pan. Stir-fry for about 2-3 minutes, or until the noodles are well coated with the sauce.\n7. **Add the peanuts and eggs**: Add the ground peanuts and beaten eggs to the wok or frying pan. Stir-fry until the eggs are cooked through.\n8. **Season with salt and pepper**: Season the Pad Thai with salt and pepper to taste.\n9. **Garnish and serve**: Garnish with chopped peanuts and lime wedges. Serve hot and enjoy!\n\nNote: You can adjust the ingredients and seasonings to your taste. This is just a basic recipe for Pad Thai, and there are many variations of this dish.",
+                "from_history": false,
+                "stop_after_tool_call": false,
+                "role": "assistant",
+                "metrics": {
+                    "input_tokens": 303,
+                    "output_tokens": 529,
+                    "total_tokens": 832,
+                    "additional_metrics": {
+                        "completion_time": 1.923636364,
+                        "prompt_time": 0.013680076,
+                        "queue_time": 0.046873313,
+                        "total_time": 1.93731644
+                    },
+                    "time": 2.047460795999541
+                },
+                "created_at": 1742275240
+            }
+        ],
+        "update_system_message_on_change": false,
+        "create_session_summary": false,
+        "update_session_summary_after_run": true,
+        "create_user_memories": false,
+        "update_user_memories_after_run": true
+    },
+    "session_data": {
+        "session_metrics": {
+            "input_tokens": 575,
+            "output_tokens": 1045,
+            "total_tokens": 1620,
+            "prompt_tokens": 0,
+            "completion_tokens": 0,
+            "prompt_tokens_details": null,
+            "completion_tokens_details": null,
+            "additional_metrics": {
+                "completion_time": 1.923636364,
+                "prompt_time": 0.013680076,
+                "queue_time": 0.046873313,
+                "total_time": 1.93731644
+            },
+            "time": 4.276376005998827,
+            "time_to_first_token": null,
+            "timer": null
+        }
+    },
+    "extra_data": null,
+    "created_at": 1742275242,
+    "updated_at": 1742275242,
+    "agent_id": "b96ac20d-565d-40b8-af84-94851758da03",
+    "agent_data": {
+        "agent_id": "b96ac20d-565d-40b8-af84-94851758da03",
+        "model": {
+            "id": "llama-3.3-70b-versatile",
+            "name": "Groq",
+            "provider": "Groq",
+            "functions": {
+                "search_knowledge_base": {
+                    "name": "search_knowledge_base",
+                    "description": "Use this function to search the knowledge base for information about a query.",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "query": {
+                                "type": "string",
+                                "description": "(None) The query to search for."
+                            }
+                        },
+                        "required": [
+                            "query"
+                        ]
+                    }
+                }
+            },
+            "tools": [
+                {
+                    "type": "function",
+                    "function": {
+                        "name": "search_knowledge_base",
+                        "description": "Use this function to search the knowledge base for information about a query.",
+                        "parameters": {
+                            "type": "object",
+                            "properties": {
+                                "query": {
+                                    "type": "string",
+                                    "description": "(None) The query to search for."
+                                }
+                            },
+                            "required": [
+                                "query"
+                            ]
+                        }
+                    }
+                }
+            ],
+            "tool_choice": "auto"
+        }
+    }
+}

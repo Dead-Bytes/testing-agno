@@ -1,0 +1,203 @@
+{
+    "session_id": "6cc07678-b177-40e0-b355-aaa0cfa0cc05",
+    "user_id": null,
+    "memory": {
+        "runs": [
+            {
+                "message": {
+                    "content": "why do you think the \"Behold The sacred Processor\" makes sense?",
+                    "from_history": false,
+                    "stop_after_tool_call": false,
+                    "role": "user",
+                    "created_at": 1742301889
+                },
+                "response": {
+                    "content": "I'm not aware of any information that suggests \"Behold The Sacred Processor\" is a real or meaningful phrase. It's possible that it's a made-up or humorous phrase. If you could provide more context or information about where you heard this phrase, I may be able to help you better.\n\nHowever, if you're looking for information on a specific topic, I can try to help you with that. \n\n<function=search_knowledge_base {\"query\": \"sacred processor\"} </function>",
+                    "content_type": "str",
+                    "event": "RunResponse",
+                    "metrics": {
+                        "input_tokens": [
+                            279
+                        ],
+                        "output_tokens": [
+                            102
+                        ],
+                        "total_tokens": [
+                            381
+                        ],
+                        "prompt_tokens": [
+                            0
+                        ],
+                        "completion_tokens": [
+                            0
+                        ],
+                        "additional_metrics": [
+                            {
+                                "completion_time": 0.370909091,
+                                "prompt_time": 0.015607436,
+                                "queue_time": 0.046795473,
+                                "total_time": 0.386516527
+                            }
+                        ],
+                        "time": [
+                            0.796880529000191
+                        ]
+                    },
+                    "model": "llama-3.3-70b-versatile",
+                    "run_id": "de28b2c6-e582-4169-a4f7-7b3d57eab2c6",
+                    "agent_id": "24f7d665-d18f-4875-bc9b-4d04268f57ed",
+                    "session_id": "6cc07678-b177-40e0-b355-aaa0cfa0cc05",
+                    "tools": [],
+                    "created_at": 1742301749,
+                    "messages": [
+                        {
+                            "content": "You are a expert on docs\n\n<additional_information>\n- Use markdown to format your answers.\n</additional_information>",
+                            "from_history": false,
+                            "stop_after_tool_call": false,
+                            "role": "system",
+                            "created_at": 1742301889
+                        },
+                        {
+                            "content": "why do you think the \"Behold The sacred Processor\" makes sense?",
+                            "from_history": false,
+                            "stop_after_tool_call": false,
+                            "role": "user",
+                            "created_at": 1742301889
+                        },
+                        {
+                            "content": "I'm not aware of any information that suggests \"Behold The Sacred Processor\" is a real or meaningful phrase. It's possible that it's a made-up or humorous phrase. If you could provide more context or information about where you heard this phrase, I may be able to help you better.\n\nHowever, if you're looking for information on a specific topic, I can try to help you with that. \n\n<function=search_knowledge_base {\"query\": \"sacred processor\"} </function>",
+                            "from_history": false,
+                            "stop_after_tool_call": false,
+                            "role": "assistant",
+                            "metrics": {
+                                "input_tokens": 279,
+                                "output_tokens": 102,
+                                "total_tokens": 381,
+                                "additional_metrics": {
+                                    "completion_time": 0.370909091,
+                                    "prompt_time": 0.015607436,
+                                    "queue_time": 0.046795473,
+                                    "total_time": 0.386516527
+                                },
+                                "time": 0.796880529000191
+                            },
+                            "created_at": 1742301889
+                        }
+                    ]
+                }
+            }
+        ],
+        "messages": [
+            {
+                "content": "You are a expert on docs\n\n<additional_information>\n- Use markdown to format your answers.\n</additional_information>",
+                "from_history": false,
+                "stop_after_tool_call": false,
+                "role": "system",
+                "created_at": 1742301889
+            },
+            {
+                "content": "why do you think the \"Behold The sacred Processor\" makes sense?",
+                "from_history": false,
+                "stop_after_tool_call": false,
+                "role": "user",
+                "created_at": 1742301889
+            },
+            {
+                "content": "I'm not aware of any information that suggests \"Behold The Sacred Processor\" is a real or meaningful phrase. It's possible that it's a made-up or humorous phrase. If you could provide more context or information about where you heard this phrase, I may be able to help you better.\n\nHowever, if you're looking for information on a specific topic, I can try to help you with that. \n\n<function=search_knowledge_base {\"query\": \"sacred processor\"} </function>",
+                "from_history": false,
+                "stop_after_tool_call": false,
+                "role": "assistant",
+                "metrics": {
+                    "input_tokens": 279,
+                    "output_tokens": 102,
+                    "total_tokens": 381,
+                    "additional_metrics": {
+                        "completion_time": 0.370909091,
+                        "prompt_time": 0.015607436,
+                        "queue_time": 0.046795473,
+                        "total_time": 0.386516527
+                    },
+                    "time": 0.796880529000191
+                },
+                "created_at": 1742301889
+            }
+        ],
+        "update_system_message_on_change": false,
+        "create_session_summary": false,
+        "update_session_summary_after_run": true,
+        "create_user_memories": false,
+        "update_user_memories_after_run": true
+    },
+    "session_data": {
+        "session_metrics": {
+            "input_tokens": 279,
+            "output_tokens": 102,
+            "total_tokens": 381,
+            "prompt_tokens": 0,
+            "completion_tokens": 0,
+            "prompt_tokens_details": null,
+            "completion_tokens_details": null,
+            "additional_metrics": {
+                "completion_time": 0.370909091,
+                "prompt_time": 0.015607436,
+                "queue_time": 0.046795473,
+                "total_time": 0.386516527
+            },
+            "time": 0.796880529000191,
+            "time_to_first_token": null,
+            "timer": null
+        }
+    },
+    "extra_data": null,
+    "created_at": 1742301890,
+    "updated_at": 1742301890,
+    "agent_id": "24f7d665-d18f-4875-bc9b-4d04268f57ed",
+    "agent_data": {
+        "agent_id": "24f7d665-d18f-4875-bc9b-4d04268f57ed",
+        "model": {
+            "id": "llama-3.3-70b-versatile",
+            "name": "Groq",
+            "provider": "Groq",
+            "functions": {
+                "search_knowledge_base": {
+                    "name": "search_knowledge_base",
+                    "description": "Use this function to search the knowledge base for information about a query.",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "query": {
+                                "type": "string",
+                                "description": "(None) The query to search for."
+                            }
+                        },
+                        "required": [
+                            "query"
+                        ]
+                    }
+                }
+            },
+            "tools": [
+                {
+                    "type": "function",
+                    "function": {
+                        "name": "search_knowledge_base",
+                        "description": "Use this function to search the knowledge base for information about a query.",
+                        "parameters": {
+                            "type": "object",
+                            "properties": {
+                                "query": {
+                                    "type": "string",
+                                    "description": "(None) The query to search for."
+                                }
+                            },
+                            "required": [
+                                "query"
+                            ]
+                        }
+                    }
+                }
+            ],
+            "tool_choice": "auto"
+        }
+    }
+}

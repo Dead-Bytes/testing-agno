@@ -1,0 +1,203 @@
+{
+    "session_id": "39f8b4f4-fbf9-4532-926a-850110508801",
+    "user_id": null,
+    "memory": {
+        "runs": [
+            {
+                "message": {
+                    "content": "why is divy?",
+                    "from_history": false,
+                    "stop_after_tool_call": false,
+                    "role": "user",
+                    "created_at": 1742302604
+                },
+                "response": {
+                    "content": "## Step 1: Understand the context of the question\nThe question \"why is divy?\" is unclear and lacks context. To provide a meaningful response, we need more information about what \"divy\" refers to.\n\n## Step 2: Consider possible meanings of \"divy\"\nWithout additional context, it's challenging to determine what \"divy\" might mean. It could be a reference to a person, place, thing, or concept.\n\n## Step 3: Search for information about \"divy\"\nTo provide a more informed response, we can try searching for information about \"divy\". However, without more context, it's unlikely that we'll find relevant results.\n\n<function=search_knowledge_base {\"query\": \"divy\"} </function>",
+                    "content_type": "str",
+                    "event": "RunResponse",
+                    "metrics": {
+                        "input_tokens": [
+                            269
+                        ],
+                        "output_tokens": [
+                            155
+                        ],
+                        "total_tokens": [
+                            424
+                        ],
+                        "prompt_tokens": [
+                            0
+                        ],
+                        "completion_tokens": [
+                            0
+                        ],
+                        "additional_metrics": [
+                            {
+                                "completion_time": 0.563636364,
+                                "prompt_time": 0.014587542,
+                                "queue_time": 0.047512577,
+                                "total_time": 0.578223906
+                            }
+                        ],
+                        "time": [
+                            0.8684595790000458
+                        ]
+                    },
+                    "model": "llama-3.3-70b-versatile",
+                    "run_id": "e231d5aa-0466-4217-b4c3-1b78c898533e",
+                    "agent_id": "b45c8e92-5ac4-42e9-aa3e-e5497ea2948f",
+                    "session_id": "39f8b4f4-fbf9-4532-926a-850110508801",
+                    "tools": [],
+                    "created_at": 1742302540,
+                    "messages": [
+                        {
+                            "content": "You are a expert on docs\n\n<additional_information>\n- Use markdown to format your answers.\n</additional_information>",
+                            "from_history": false,
+                            "stop_after_tool_call": false,
+                            "role": "system",
+                            "created_at": 1742302604
+                        },
+                        {
+                            "content": "why is divy?",
+                            "from_history": false,
+                            "stop_after_tool_call": false,
+                            "role": "user",
+                            "created_at": 1742302604
+                        },
+                        {
+                            "content": "## Step 1: Understand the context of the question\nThe question \"why is divy?\" is unclear and lacks context. To provide a meaningful response, we need more information about what \"divy\" refers to.\n\n## Step 2: Consider possible meanings of \"divy\"\nWithout additional context, it's challenging to determine what \"divy\" might mean. It could be a reference to a person, place, thing, or concept.\n\n## Step 3: Search for information about \"divy\"\nTo provide a more informed response, we can try searching for information about \"divy\". However, without more context, it's unlikely that we'll find relevant results.\n\n<function=search_knowledge_base {\"query\": \"divy\"} </function>",
+                            "from_history": false,
+                            "stop_after_tool_call": false,
+                            "role": "assistant",
+                            "metrics": {
+                                "input_tokens": 269,
+                                "output_tokens": 155,
+                                "total_tokens": 424,
+                                "additional_metrics": {
+                                    "completion_time": 0.563636364,
+                                    "prompt_time": 0.014587542,
+                                    "queue_time": 0.047512577,
+                                    "total_time": 0.578223906
+                                },
+                                "time": 0.8684595790000458
+                            },
+                            "created_at": 1742302604
+                        }
+                    ]
+                }
+            }
+        ],
+        "messages": [
+            {
+                "content": "You are a expert on docs\n\n<additional_information>\n- Use markdown to format your answers.\n</additional_information>",
+                "from_history": false,
+                "stop_after_tool_call": false,
+                "role": "system",
+                "created_at": 1742302604
+            },
+            {
+                "content": "why is divy?",
+                "from_history": false,
+                "stop_after_tool_call": false,
+                "role": "user",
+                "created_at": 1742302604
+            },
+            {
+                "content": "## Step 1: Understand the context of the question\nThe question \"why is divy?\" is unclear and lacks context. To provide a meaningful response, we need more information about what \"divy\" refers to.\n\n## Step 2: Consider possible meanings of \"divy\"\nWithout additional context, it's challenging to determine what \"divy\" might mean. It could be a reference to a person, place, thing, or concept.\n\n## Step 3: Search for information about \"divy\"\nTo provide a more informed response, we can try searching for information about \"divy\". However, without more context, it's unlikely that we'll find relevant results.\n\n<function=search_knowledge_base {\"query\": \"divy\"} </function>",
+                "from_history": false,
+                "stop_after_tool_call": false,
+                "role": "assistant",
+                "metrics": {
+                    "input_tokens": 269,
+                    "output_tokens": 155,
+                    "total_tokens": 424,
+                    "additional_metrics": {
+                        "completion_time": 0.563636364,
+                        "prompt_time": 0.014587542,
+                        "queue_time": 0.047512577,
+                        "total_time": 0.578223906
+                    },
+                    "time": 0.8684595790000458
+                },
+                "created_at": 1742302604
+            }
+        ],
+        "update_system_message_on_change": false,
+        "create_session_summary": false,
+        "update_session_summary_after_run": true,
+        "create_user_memories": false,
+        "update_user_memories_after_run": true
+    },
+    "session_data": {
+        "session_metrics": {
+            "input_tokens": 269,
+            "output_tokens": 155,
+            "total_tokens": 424,
+            "prompt_tokens": 0,
+            "completion_tokens": 0,
+            "prompt_tokens_details": null,
+            "completion_tokens_details": null,
+            "additional_metrics": {
+                "completion_time": 0.563636364,
+                "prompt_time": 0.014587542,
+                "queue_time": 0.047512577,
+                "total_time": 0.578223906
+            },
+            "time": 0.8684595790000458,
+            "time_to_first_token": null,
+            "timer": null
+        }
+    },
+    "extra_data": null,
+    "created_at": 1742302605,
+    "updated_at": 1742302605,
+    "agent_id": "b45c8e92-5ac4-42e9-aa3e-e5497ea2948f",
+    "agent_data": {
+        "agent_id": "b45c8e92-5ac4-42e9-aa3e-e5497ea2948f",
+        "model": {
+            "id": "llama-3.3-70b-versatile",
+            "provider": "Groq",
+            "name": "Groq",
+            "functions": {
+                "search_knowledge_base": {
+                    "name": "search_knowledge_base",
+                    "description": "Use this function to search the knowledge base for information about a query.",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "query": {
+                                "type": "string",
+                                "description": "(None) The query to search for."
+                            }
+                        },
+                        "required": [
+                            "query"
+                        ]
+                    }
+                }
+            },
+            "tools": [
+                {
+                    "type": "function",
+                    "function": {
+                        "name": "search_knowledge_base",
+                        "description": "Use this function to search the knowledge base for information about a query.",
+                        "parameters": {
+                            "type": "object",
+                            "properties": {
+                                "query": {
+                                    "type": "string",
+                                    "description": "(None) The query to search for."
+                                }
+                            },
+                            "required": [
+                                "query"
+                            ]
+                        }
+                    }
+                }
+            ],
+            "tool_choice": "auto"
+        }
+    }
+}

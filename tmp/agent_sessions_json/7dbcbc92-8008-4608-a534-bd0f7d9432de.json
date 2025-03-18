@@ -1,0 +1,203 @@
+{
+    "session_id": "7dbcbc92-8008-4608-a534-bd0f7d9432de",
+    "user_id": null,
+    "memory": {
+        "runs": [
+            {
+                "message": {
+                    "content": "who is divy?",
+                    "from_history": false,
+                    "stop_after_tool_call": false,
+                    "role": "user",
+                    "created_at": 1742303050
+                },
+                "response": {
+                    "content": "<function=search_knowledge_base{\"query\": \"divy\"}</function>",
+                    "content_type": "str",
+                    "event": "RunResponse",
+                    "metrics": {
+                        "input_tokens": [
+                            269
+                        ],
+                        "output_tokens": [
+                            17
+                        ],
+                        "total_tokens": [
+                            286
+                        ],
+                        "prompt_tokens": [
+                            0
+                        ],
+                        "completion_tokens": [
+                            0
+                        ],
+                        "additional_metrics": [
+                            {
+                                "completion_time": 0.061818182,
+                                "prompt_time": 0.015814432,
+                                "queue_time": 0.052813632,
+                                "total_time": 0.077632614
+                            }
+                        ],
+                        "time": [
+                            0.357798721999643
+                        ]
+                    },
+                    "model": "llama-3.3-70b-versatile",
+                    "run_id": "08a53ba4-84aa-43b5-a92a-298473984088",
+                    "agent_id": "d443f193-be19-4aa9-8530-c425cbd471d0",
+                    "session_id": "7dbcbc92-8008-4608-a534-bd0f7d9432de",
+                    "tools": [],
+                    "created_at": 1742303023,
+                    "messages": [
+                        {
+                            "content": "You are a expert on docs\n\n<additional_information>\n- Use markdown to format your answers.\n</additional_information>",
+                            "from_history": false,
+                            "stop_after_tool_call": false,
+                            "role": "system",
+                            "created_at": 1742303050
+                        },
+                        {
+                            "content": "who is divy?",
+                            "from_history": false,
+                            "stop_after_tool_call": false,
+                            "role": "user",
+                            "created_at": 1742303050
+                        },
+                        {
+                            "content": "<function=search_knowledge_base{\"query\": \"divy\"}</function>",
+                            "from_history": false,
+                            "stop_after_tool_call": false,
+                            "role": "assistant",
+                            "metrics": {
+                                "input_tokens": 269,
+                                "output_tokens": 17,
+                                "total_tokens": 286,
+                                "additional_metrics": {
+                                    "completion_time": 0.061818182,
+                                    "prompt_time": 0.015814432,
+                                    "queue_time": 0.052813632,
+                                    "total_time": 0.077632614
+                                },
+                                "time": 0.357798721999643
+                            },
+                            "created_at": 1742303050
+                        }
+                    ]
+                }
+            }
+        ],
+        "messages": [
+            {
+                "content": "You are a expert on docs\n\n<additional_information>\n- Use markdown to format your answers.\n</additional_information>",
+                "from_history": false,
+                "stop_after_tool_call": false,
+                "role": "system",
+                "created_at": 1742303050
+            },
+            {
+                "content": "who is divy?",
+                "from_history": false,
+                "stop_after_tool_call": false,
+                "role": "user",
+                "created_at": 1742303050
+            },
+            {
+                "content": "<function=search_knowledge_base{\"query\": \"divy\"}</function>",
+                "from_history": false,
+                "stop_after_tool_call": false,
+                "role": "assistant",
+                "metrics": {
+                    "input_tokens": 269,
+                    "output_tokens": 17,
+                    "total_tokens": 286,
+                    "additional_metrics": {
+                        "completion_time": 0.061818182,
+                        "prompt_time": 0.015814432,
+                        "queue_time": 0.052813632,
+                        "total_time": 0.077632614
+                    },
+                    "time": 0.357798721999643
+                },
+                "created_at": 1742303050
+            }
+        ],
+        "update_system_message_on_change": false,
+        "create_session_summary": false,
+        "update_session_summary_after_run": true,
+        "create_user_memories": false,
+        "update_user_memories_after_run": true
+    },
+    "session_data": {
+        "session_metrics": {
+            "input_tokens": 269,
+            "output_tokens": 17,
+            "total_tokens": 286,
+            "prompt_tokens": 0,
+            "completion_tokens": 0,
+            "prompt_tokens_details": null,
+            "completion_tokens_details": null,
+            "additional_metrics": {
+                "completion_time": 0.061818182,
+                "prompt_time": 0.015814432,
+                "queue_time": 0.052813632,
+                "total_time": 0.077632614
+            },
+            "time": 0.357798721999643,
+            "time_to_first_token": null,
+            "timer": null
+        }
+    },
+    "extra_data": null,
+    "created_at": 1742303050,
+    "updated_at": 1742303050,
+    "agent_id": "d443f193-be19-4aa9-8530-c425cbd471d0",
+    "agent_data": {
+        "agent_id": "d443f193-be19-4aa9-8530-c425cbd471d0",
+        "model": {
+            "provider": "Groq",
+            "name": "Groq",
+            "id": "llama-3.3-70b-versatile",
+            "functions": {
+                "search_knowledge_base": {
+                    "name": "search_knowledge_base",
+                    "description": "Use this function to search the knowledge base for information about a query.",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "query": {
+                                "type": "string",
+                                "description": "(None) The query to search for."
+                            }
+                        },
+                        "required": [
+                            "query"
+                        ]
+                    }
+                }
+            },
+            "tools": [
+                {
+                    "type": "function",
+                    "function": {
+                        "name": "search_knowledge_base",
+                        "description": "Use this function to search the knowledge base for information about a query.",
+                        "parameters": {
+                            "type": "object",
+                            "properties": {
+                                "query": {
+                                    "type": "string",
+                                    "description": "(None) The query to search for."
+                                }
+                            },
+                            "required": [
+                                "query"
+                            ]
+                        }
+                    }
+                }
+            ],
+            "tool_choice": "auto"
+        }
+    }
+}
